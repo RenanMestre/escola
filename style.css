@@ -394,6 +394,10 @@ footer .line-footer p a {
         flex-direction: column-reverse;
     }
 
+    .interface .logo img {
+        width: 110px;
+    }
+
     h2.titulo {
         font-size: 34px;
         line-height: 38px;
@@ -425,11 +429,17 @@ footer .line-footer p a {
     }
 
     .topo-do-site .img-topo-site img {
-        width: 100%;
+        width: 250px;
+        height: 250px;
     }
 
     section.especialidades {
         padding: 40px 8%;
+    }
+
+    .especialidades .especialidades-box img {
+        width: 100%;
+        height: 100%;
     }
 
     section.sobre {
@@ -441,6 +451,12 @@ footer .line-footer p a {
         line-height: 35px;
         text-align: center;
     }
+
+    .sobre .img-sobre img {
+        width: 100%;
+        height: 100%;
+    }
+
     .btn-social{
         text-align: center;
     }
