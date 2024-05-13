@@ -166,6 +166,15 @@ section.topo-do-site .flex {
     font-size: 50px;
 }
 
+.topo-do-site .tabela-aulas h1 {
+    margin: 10px 450px;
+}
+
+.topo-do-site .tabela-aulas h1 span {
+    color: rgb(225, 0, 255);
+    font-size: 42px;
+}
+
 .topo-do-site .text-topo-site p {
     color: white;
     margin: 40px 0;
@@ -177,6 +186,12 @@ section.topo-do-site .flex {
     filter: drop-shadow(0px 0px 15px rgb(212, 0, 255));
     height: 500px;
     width: 500px;
+}
+
+.topo-do-site .tabela-aulas img {
+    margin: 0 300px;
+    width: 660px;
+    height: 550px;
 }
 
 
@@ -271,7 +286,7 @@ section.sobre img {
 }
 
 .sobre .txt-sobre h2 span {
-    color: aqua;
+    color: rgb(160, 15, 173);
     display: block;
 }
 
@@ -293,7 +308,7 @@ section.sobre img {
 
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgba(0, 171, 250, 0.418);
+    box-shadow: 0 0 40px 10px rgba(200, 0, 250, 0.418);
 }
 
 section.sobre .flex {
@@ -357,9 +372,23 @@ section.portfolio .flex {
     text-align: left;
 }
 
+.especialidades .especialidades-box svg {
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.especialidades .especialidades-box i {
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    color: white;
+}
+
+
 footer {
     padding: 60px 4%;
-    box-shadow: 0 0 40px 10px rgba(0, 171, 250, 0.418);
+    box-shadow: 0 0 40px 10px rgba(250, 0, 196, 0.418);
 }
 
 footer .flex {
@@ -394,10 +423,6 @@ footer .line-footer p a {
         flex-direction: column-reverse;
     }
 
-    .interface .logo img {
-        width: 110px;
-    }
-
     h2.titulo {
         font-size: 34px;
         line-height: 38px;
@@ -409,6 +434,15 @@ footer .line-footer p a {
     }
 
     .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .topo-do-site .tabela-aulas h1 {
+        margin: 10px 30px;
+    }
+    
+    .topo-do-site .tabela-aulas h1 span {
+        color: rgb(225, 0, 255);
         font-size: 30px;
     }
 
@@ -431,6 +465,12 @@ footer .line-footer p a {
     .topo-do-site .img-topo-site img {
         width: 250px;
         height: 250px;
+    }
+
+    .topo-do-site .tabela-aulas img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
     }
 
     section.especialidades {
@@ -489,8 +529,9 @@ footer .line-footer p a {
     }
 
     .interface .logo img{
-        height: 85px;
-        margin: 0px 50px;
+        width: 180px;
+        height: 180px;
+        margin: 0 100px;
     }
 
 }
