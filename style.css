@@ -438,7 +438,7 @@ footer .line-footer p a {
     }
 
     .topo-do-site .tabela-aulas h1 {
-        margin: 10px 30px;
+        margin: 10px 10%;
     }
     
     .topo-do-site .tabela-aulas h1 span {
@@ -465,12 +465,6 @@ footer .line-footer p a {
     .topo-do-site .img-topo-site img {
         width: 250px;
         height: 250px;
-    }
-
-    .topo-do-site .tabela-aulas h1 span {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
 
     .topo-do-site .tabela-aulas img {
@@ -535,11 +529,9 @@ footer .line-footer p a {
     }
 
     .interface .logo img{
-        width: 200px;
-        height: 200px;
-        margin: 0 90px;
-        align-items: center;
-        justify-content: center;
+        width: 250px;
+        height: 250px;
+        margin: 0 27%;
     }
 
     .logo-footer img {
