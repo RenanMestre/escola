@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+.center {
+    text-align: center;
+}
+
 body {
     background-color: black;
     height: 100vh;
@@ -438,7 +442,7 @@ footer .line-footer p a {
     }
 
     .topo-do-site .tabela-aulas h1 {
-        margin: 10px 10%;
+        margin: 10px;
     }
     
     .topo-do-site .tabela-aulas h1 span {
@@ -526,12 +530,6 @@ footer .line-footer p a {
 
     .topo-do-site .text-topo-site h1 span {
         font-size: 35px;
-    }
-
-    .interface .logo img{
-        width: 250px;
-        height: 250px;
-        margin: 0 27%;
     }
 
     .logo-footer img {
