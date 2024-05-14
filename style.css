@@ -490,6 +490,10 @@ footer .line-footer p a {
         height: 100%;
     }
 
+    .especialidades .atividade {
+        margin: 0 50px;
+    }
+
     section.sobre {
         padding: 80px 8%;
     }
