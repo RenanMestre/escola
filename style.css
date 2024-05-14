@@ -463,8 +463,8 @@ footer .line-footer p a {
     }
 
     .topo-do-site .img-topo-site img {
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: 100%;
     }
 
     .topo-do-site .tabela-aulas img {
