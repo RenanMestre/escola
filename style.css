@@ -226,6 +226,10 @@ section.especialidades .flex {
     text-align: center;
 }
 
+.especialidades .atividade {
+    margin: 0 125px;
+}
+
 .especialidades .especialidades-box img {
     width: 400px;
     height: 170px;
