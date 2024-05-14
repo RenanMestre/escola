@@ -467,6 +467,12 @@ footer .line-footer p a {
         height: 250px;
     }
 
+    .topo-do-site .tabela-aulas h1 span {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
     .topo-do-site .tabela-aulas img {
         margin: 0;
         width: 100%;
@@ -529,9 +535,16 @@ footer .line-footer p a {
     }
 
     .interface .logo img{
-        width: 180px;
-        height: 180px;
-        margin: 0 100px;
+        width: 200px;
+        height: 200px;
+        margin: 0 90px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer img {
+        width: 250px;
+        height: 250px;
     }
 
 }
