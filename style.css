@@ -159,6 +159,13 @@ section.topo-do-site .flex {
     gap: 90px;
 }
 
+
+.topo-do-site .tabela-aulas img {
+    margin: 0 300px;
+    width: 660px;
+    height: 550px;
+}
+
 .topo-do-site h1 {
     color: white;
     font-size: 42px;
@@ -192,10 +199,55 @@ section.topo-do-site .flex {
     width: 500px;
 }
 
+.topo-do-site .tabela-aulas .motivação h1 {
+    color: white;
+    margin: 150px 350px 15px;
+    font-size: 40px;
+}
+
+
+.topo-do-site .tabela-aulas .motivação .texto-motivador span {
+    color: rgb(225, 0, 255);
+    font-size: 30px;
+}
+
+.topo-do-site .tabela-aulas .motivação .texto-motivador p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 50px 0 55px;
+}
+
+
 .topo-do-site .tabela-aulas img {
     margin: 0 300px;
     width: 660px;
     height: 550px;
+}
+
+.topo-do-site .eventos h1 {
+    margin: 50px 0;
+}
+
+.topo-do-site .eventos h2 {
+    color: white;
+    margin: 15px 54px 0;
+}
+
+.topo-do-site .tabela-aulas h2 span {
+    color: rgb(225, 0, 255);
+    font-size: 25px;
+}
+
+.topo-do-site .eventos p {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.topo-do-site .eventos img {
+    height: 500px;
+    width: 640px;
 }
 
 
@@ -303,6 +355,7 @@ section.sobre img {
 }
 
 .btn-social button {
+    color: white;
     width: 60px;
     height: 60px;
     border-radius: 30%;
@@ -350,7 +403,7 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.171);
+    background-color: rgba(234, 0, 255, 0.521);
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -441,6 +494,31 @@ footer .line-footer p a {
         display: none;
     }
 
+    .topo-do-site .tabela-aulas .motivação h1 {
+        color: white;
+        margin: 30px 10px 0;
+        font-size: 40px;
+    }
+    
+    .topo-do-site .tabela-aulas .motivação .texto-motivador span {
+        color: rgb(225, 0, 255);
+        font-size: 30px;
+    }
+    
+    .topo-do-site .tabela-aulas .motivação .texto-motivador p {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: white;
+        margin: 25px 0 60px;
+    }
+    
+    
+    .topo-do-site .tabela-aulas img {
+        margin: 0 300px;
+        width: 660px;
+        height: 550px;
+    }
+
     .topo-do-site h1 {
         font-size: 30px;
     }
@@ -481,11 +559,26 @@ footer .line-footer p a {
         height: 100%;
     }
 
+    .topo-do-site .eventos h1 {
+        margin: 50px 0 0;
+    }
+    
+    .topo-do-site .eventos h2 {
+        color: white;
+        margin: 35px 61px 15px;
+    }
+    
+    .topo-do-site .eventos img {
+        height: 100%;
+        width: 100%;
+    }
+
     section.especialidades {
         padding: 40px 8%;
     }
 
     .especialidades .especialidades-box img {
+        margin: 10px 0 0;
         width: 100%;
         height: 100%;
     }
