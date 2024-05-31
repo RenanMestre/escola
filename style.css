@@ -573,6 +573,15 @@ footer .line-footer p a {
         width: 100%;
     }
 
+    .topo-do-site .calendario h1{
+        margin: 50px 0 0;
+    }
+
+    .topo-do-site .calendario p{
+        margin: 25px 0 50px;
+        color: white;
+    }
+
     section.especialidades {
         padding: 40px 8%;
     }
