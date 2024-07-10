@@ -1,650 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.center {
-    text-align: center;
-}
-
-body {
-    background-color: black;
+  }
+  
+  body {
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c450c0 46%,
+      #ffcc70 100%
+    );
     height: 100vh;
-}
-
-.btn-contato button {
-    color: white;
-}
-
-.interface {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.interface .logo img{
-    height: 290px;
-    width: 290px;
-    margin: 0 450px;
-    justify-content: space-between;
-    align-items: center;
     display: flex;
-}
-
-.flex {
-    display: flex;
-}
-
-.btn-contato button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: rgb(101, 15, 104);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-
-h2.titulo {
-    color: white;
-    font-size: 38px;
-    text-align: center;
-}
-
-h2.titulo span {
-    color: rgb(183, 0, 255);
-}
-
-header {
-    padding: 0;
-}
-
-header>.interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header a {
-    color: rgb(134, 132, 132);
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
-
-header nav.menu-desktop a:hover {
-    color: rgb(255, 255, 255);
-    transform: scale(1.10);
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav.menu-desktop ul li {
-    display: inline-block;
-    padding: 0 40px;
-}
-
-.btn-abrir-menu i{
-    color: rgb(255, 0, 234);
-    font-size: 40px;
-}
-
-.menu-mobile{
-    background-color: black;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
-}
-
-.menu-mobile .btn-fechar i{
-    color: aqua;
-    font-size: 30px;
-}
-
-.menu-mobile .btn-fechar{
-    padding: 20px 5%;
-}
-
-.menu-mobile nav ul {
-    text-align: right;
-}
-
-.menu-mobile nav ul li a {
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 20px 8%;
-    display: block;
-}
-
-.menu-mobile nav ul li a:hover {
-    background-color: aqua;
-    color: black;
-}
-
-.overlay-menu{
-    background-color: rgba(0, 0, 0, 0.747);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 8888;
-    display: none;
-}
-
-button:hover {
-    box-shadow: 0px 0px 8px rgb(211, 0, 253);
-    transform: scale(1.05);
-}
-
-section.topo-do-site {
-    padding: 0;
-}
-
-section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
-    gap: 90px;
-}
-
-
-.topo-do-site .tabela-aulas img {
-    margin: 0 300px;
-    width: 660px;
-    height: 550px;
-}
-
-.topo-do-site h1 {
-    color: white;
-    font-size: 42px;
-    line-height: 40px;
-}
-
-.topo-do-site .text-topo-site h1 span {
-    color: rgb(225, 0, 255);
-    font-size: 50px;
-}
-
-.topo-do-site .tabela-aulas h1 {
-    margin: 10px 450px;
-}
-
-.topo-do-site .tabela-aulas h1 span {
-    color: rgb(225, 0, 255);
-    font-size: 42px;
-}
-
-.topo-do-site .text-topo-site p {
-    color: white;
-    margin: 40px 0;
-}
-
-.topo-do-site .img-topo-site img {
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
-    filter: drop-shadow(0px 0px 15px rgb(212, 0, 255));
-    height: 500px;
+  }
+  
+  .clock {
     width: 500px;
-}
-
-.topo-do-site .tabela-aulas .motivação h1 {
-    color: white;
-    margin: 150px 350px 15px;
-    font-size: 40px;
-}
-
-
-.topo-do-site .tabela-aulas .motivação .texto-motivador span {
-    color: rgb(225, 0, 255);
-    font-size: 30px;
-}
-
-.topo-do-site .tabela-aulas .motivação .texto-motivador p {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    color: white;
-    margin: 50px 0 55px;
-}
-
-
-.topo-do-site .tabela-aulas img {
-    margin: 0 300px;
-    width: 660px;
-    height: 550px;
-}
-
-.topo-do-site .eventos h1 {
-    margin: 50px 0;
-}
-
-.topo-do-site .eventos h2 {
-    color: white;
-    margin: 15px 54px 0;
-}
-
-.topo-do-site .tabela-aulas h2 span {
-    color: rgb(225, 0, 255);
-    font-size: 25px;
-}
-
-.topo-do-site .eventos p {
-    color: white;
-    text-align: center;
-    margin: 15px;
-}
-
-.topo-do-site .eventos img {
     height: 500px;
-    width: 640px;
-}
-
-
-@keyframes flutuar {
-    0% {
-        top: 0;
-    }
-
-    100% {
-        top: 30px;
-    }
-}
-
-section.especialidades {
-    padding: 40px 4%;
-}
-
-section.especialidades .flex {
-    gap: 60px;
-}
-
-.especialidades .especialidades-box {
-    color: white;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: .2s;
-    text-align: center;
-}
-
-.especialidades .atividade {
-    margin: 0 125px;
-}
-
-.especialidades .especialidades-box img {
-    width: 400px;
-    height: 170px;
-}
-
-.especialidades .especialidades-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.253);
-}
-
-.especialidades .especialidades-box i {
-    font-size: 70px;
-    color: rgb(198, 15, 223);
-}
-
-.especialidades .especialidades-box h3 {
-    font-size: 28px;
-    margin: 15px 0;
-}
-
-.especialidades .especialidades-box {
-    color: white;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: .2s;
-    text-align: center;
-}
-
-.especialidades .especialidades-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.253);
-}
-
-.especialidades .especialidades-box span {
-    font-size: 70px;
-    color: rgb(212, 0, 255);
-}
-
-.especialidades .especialidades-box h3 {
-    font-size: 28px;
-    margin: 15px 0;
-}
-
-section.sobre {
-    padding: 50px 4%;
-}
-
-section.sobre img {
-    width: 450px;
-    height: 450px;
-}
-
-.sobre .txt-sobre {
-    color: white;
-}
-
-.sobre .txt-sobre h2 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
-}
-
-.sobre .txt-sobre h2 span {
-    color: rgb(160, 15, 173);
-    display: block;
-}
-
-.sobre .txt-sobre p {
-    text-align: justify;
-}
-
-.btn-social button {
-    color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 30%;
-    border: none;
-    background-color: rgb(225, 0, 255);
-    font-size: 22px;
-    cursor: pointer;
-    margin: 10px 5px;
-    transition: .2s;
-}
-
-section.portfolio {
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgba(200, 0, 250, 0.418);
-}
-
-section.sobre .flex {
-    align-items: center;
-    gap: 60px;
-}
-
-section.portfolio .flex {
-    justify-content: space-around;
-    margin-top: 60px;
-}
-
-.img-port {
-    width: 360px;
-    height: 460px;
-    background-size: cover;
-    background-position: 100% 0%;
-    transition: 2s;
-    cursor: pointer;
-    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    border: 2px solid black;
     position: relative;
-}
-
-.img-port:hover {
-    background-position: 100% 100%;
-}
-
-.overlay {
+  }
+  
+  .clock .number {
+    --rotation: 0;
+  
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(234, 0, 255, 0.521);
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    opacity: 0;
-    transition: .5s;
-}
-
-.overlay:hover {
-    opacity: 1;
-}
-
-.img-port {
-    width: 360px;
-    height: 460px;
-    background-color: rgb(195, 0, 255);
-}
-
-.center {
     text-align: center;
-}
-
-.especialidades .especialidades-box P {
-    text-align: left;
-}
-
-.especialidades .especialidades-box svg {
-    width: 60px;
-    height: 60px;
-    background-color: blueviolet;
-}
-
-.especialidades .especialidades-box i {
-    width: 60px;
-    height: 60px;
-    background-color: blueviolet;
-    color: white;
-}
-
-
-footer {
-    padding: 60px 4%;
-    box-shadow: 0 0 40px 10px rgba(250, 0, 196, 0.418);
-}
-
-footer .flex {
-    justify-content: space-between;
-}
-
-footer .line-footer {
-    padding: 20px 0;
-}
-
-.borda {
-    border-top: 2px solid rgb(255, 1, 179);
-}
-
-footer .line-footer p i {
-    color: rgb(195, 0, 255);
-    font-size: 22px;
-}
-
-footer .line-footer p a {
-    color: white;
-    margin: 5px;
-}
-
-.logo-footer img {
-    width: 150px;
-    height: 150px;
-}
-
-@media screen and (max-width: 1020px) {
-    .flex {
-        flex-direction: column-reverse;
-    }
-
-    h2.titulo {
-        font-size: 34px;
-        line-height: 38px;
-    }
-
-    .menu.desktop,
-    .btn-contato {
-        display: none;
-    }
-
-    .topo-do-site .tabela-aulas .motivação h1 {
-        color: white;
-        margin: 30px 10px 0;
-        font-size: 40px;
-    }
-    
-    .topo-do-site .tabela-aulas .motivação .texto-motivador span {
-        color: rgb(225, 0, 255);
-        font-size: 30px;
-    }
-    
-    .topo-do-site .tabela-aulas .motivação .texto-motivador p {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-        color: white;
-        margin: 25px 0 60px;
-    }
-    
-    
-    .topo-do-site .tabela-aulas img {
-        margin: 0 300px;
-        width: 660px;
-        height: 550px;
-    }
-
-    .topo-do-site h1 {
-        font-size: 30px;
-    }
-
-    .topo-do-site .tabela-aulas h1 {
-        margin: 10px;
-    }
-    
-    .topo-do-site .tabela-aulas h1 span {
-        color: rgb(225, 0, 255);
-        font-size: 30px;
-    }
-
-    section.topo-do-site {
-        padding: 20px 8%;
-    }
-
-    section.topo-do-site .flex {
-        gap: 40px;
-    }
-
-    section.topo-do-site {
-        padding: 20px 8%;
-    }
-
-    .topo-do-site h1 {
-        font-size: 30px;
-    }
-
-    .topo-do-site .img-topo-site img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .topo-do-site .tabela-aulas img {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .topo-do-site .eventos h1 {
-        margin: 50px 0 0;
-    }
-    
-    .topo-do-site .eventos h2 {
-        color: white;
-        margin: 35px 61px 15px;
-    }
-    
-    .topo-do-site .eventos img {
-        height: 100%;
-        width: 100%;
-    }
-
-    .topo-do-site .calendario h1{
-        margin: 50px 0 0;
-    }
-
-    .topo-do-site .calendario p{
-        margin: 25px 0 50px;
-        color: white;
-    }
-
-    section.especialidades {
-        padding: 40px 8%;
-    }
-
-    .especialidades .especialidades-box img {
-        margin: 10px 0 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .especialidades .atividade {
-        margin: 0 50px;
-    }
-
-    section.sobre {
-        padding: 80px 8%;
-    }
-
-    .sobre .txt-sobre h2 {
-        font-size: 34px;
-        line-height: 35px;
-        text-align: center;
-    }
-
-    .sobre .img-sobre img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .btn-social{
-        text-align: center;
-    }
-
-    section.portfolio {
-        padding: 80px 8%;
-    }
-
-    .img-port {
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-    }
-
-    section.portfolio .flex {
-        gap: 15px;
-    }
-
-    footer .flex {
-        flex-direction: column;
-        gap: 30%;
-    }
-
-    footer .line-footer {
-        text-align: center;
-    }
-
-    .topo-do-site .text-topo-site h1 span {
-        font-size: 35px;
-    }
-
-    .logo-footer img {
-        width: 250px;
-        height: 250px;
-    }
-
-}
+    transform: rotate(var(--rotation));
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 15px;
+  }
+  
+  .clock .number.number-1 {
+    --rotation: 30deg;
+  }
+  .clock .number.number-2 {
+    --rotation: 60deg;
+  }
+  .clock .number.number-3 {
+    --rotation: 90deg;
+  }
+  .clock .number.number-4 {
+    --rotation: 120deg;
+  }
+  .clock .number.number-5 {
+    --rotation: 150deg;
+  }
+  .clock .number.number-6 {
+    --rotation: 180deg;
+  }
+  .clock .number.number-7 {
+    --rotation: 210deg;
+  }
+  .clock .number.number-8 {
+    --rotation: 240deg;
+  }
+  .clock .number.number-9 {
+    --rotation: 270deg;
+  }
+  .clock .number.number-10 {
+    --rotation: 300deg;
+  }
+  .clock .number.number-11 {
+    --rotation: 330deg;
+  }
+  
+  /* Ponteiros */
+  .clock::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  
+  .clock .hand {
+    --rotation: 0;
+  
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .clock .hand.seconds {
+    width: 3px;
+    height: 40%;
+    background-color: red;
+  }
+  
+  .clock .hand.minutes {
+    width: 7px;
+    height: 35%;
+    background-color: black;
+  }
+  
+  .clock .hand.hours {
+    width: 10px;
+    height: 25%;
+    background-color: black;
+  }
